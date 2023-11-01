@@ -1,0 +1,40 @@
+.tiles__grid {
+  .w-dyn-item {
+    .is--landscape {
+      display: none;
+    }
+    .is--portrait {
+      display: inline;
+    }
+  }
+  .w-dyn-item:nth-child(1) {
+    grid-column: span 2;
+
+    .is--portrait {
+      display: none;
+    }
+    .is--landscape {
+      display: inline;
+    }
+  }
+  .w-dyn-item:nth-child(7n) {
+    grid-column: span 2;
+
+    .is--portrait {
+      display: none;
+    }
+    .is--landscape {
+      display: inline;
+    }
+  }
+  .w-dyn-item:nth-child(8n) {
+    grid-column: span 2;
+
+    .is--portrait {
+      display: none;
+    }
+    .is--landscape {
+      display: inline;
+    }
+  }
+}

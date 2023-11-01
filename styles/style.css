@@ -1,0 +1,35 @@
+.tiles__grid .w-dyn-item .is--landscape {
+  display: none;
+}
+.tiles__grid .w-dyn-item .is--portrait {
+  display: inline;
+}
+.tiles__grid .w-dyn-item:nth-child(1) {
+  grid-column: span 2;
+}
+.tiles__grid .w-dyn-item:nth-child(1) .is--portrait {
+  display: none;
+}
+.tiles__grid .w-dyn-item:nth-child(1) .is--landscape {
+  display: inline;
+}
+.tiles__grid .w-dyn-item:nth-child(7n) {
+  grid-column: span 2;
+}
+.tiles__grid .w-dyn-item:nth-child(7n) .is--portrait {
+  display: none;
+}
+.tiles__grid .w-dyn-item:nth-child(7n) .is--landscape {
+  display: inline;
+}
+.tiles__grid .w-dyn-item:nth-child(8n) {
+  grid-column: span 2;
+}
+.tiles__grid .w-dyn-item:nth-child(8n) .is--portrait {
+  display: none;
+}
+.tiles__grid .w-dyn-item:nth-child(8n) .is--landscape {
+  display: inline;
+}
+
+/*# sourceMappingURL=style.css.map */
